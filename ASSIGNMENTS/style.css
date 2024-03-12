@@ -1,0 +1,158 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.container{
+  width: 100%;
+  min-height: 100vh;
+  
+  background-position: center;
+  background-size: cover;
+  background-image: url(https://t4.ftcdn.net/jpg/06/78/97/43/360_F_678974321_YaIrhkdriMtzhPCOSR67Ge3JaKEs9sph.jpg)
+}
+  .row{
+    width: 100%;
+    padding: 0px 80px;
+  }
+.navbar{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+align-items: center;
+padding: 10px 0px;
+z-index: 1;
+}
+.navbar ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.navbar ul li{
+  list-style: none;
+}
+.navbar ul li a{
+  padding: 18px 30px;
+  border-radius: 5px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-size: 20px;
+  color: black;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.content{
+  width: 100%;
+  margin-top: 200px;
+  color: aliceblue;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: left;
+  
+  flex-direction: column;
+}
+.content h1{
+  font-size: 32px;
+  font-family:cursive;
+  color:coral;
+  }
+.content p{
+  font-size: 15px;
+  color:white;
+  font-weight: 30px;
+  font-family: cursive;
+}
+.content a{
+  font-size: 20px;
+  margin-top: 20px;
+  text-decoration: none;
+  
+  display: inline-block;
+  letter-spacing: 1.5px;
+  padding: 10px 10px;
+  border-radius: 5px;
+  color: red;
+}
+.image{
+  width: 100%;
+  min-height: 100vh;
+  padding: 0px 80px;
+  display: flex;
+  flex-direction: column;
+  background-color:white;
+}
+.image h1{
+  font-size: 25px;
+  font-weight: 500px;
+  text-transform: uppercase;
+  margin-top: 10px;
+  margin-left: 400px;
+  color: orangered;
+  letter-spacing: 0.5px;
+  padding: 8px 2px
+  }
+  .image p{
+    font-size: 13px;
+    text-align: justify;
+    
+  }
+  .image h2{
+    font-size: 15px;
+    color: black;
+  
+  }
+  
+    .pictures img {
+      
+  display: inline-block;
+  padding: 5px 10px;
+      
+  
+    }
+    footer{
+      display: flex;
+      flex-direction: column;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      text-align: center;
+      text-transform: uppercase;
+      padding-top: 30px;
+      background: #272727;
+    }
+    footer li{
+      list-style: none;
+      display: inline-block;
+      margin: 10px;
+    }
+    .footer-icons a{
+      background: orangered;
+      color: #272727;
+      padding: 10px;
+      border-radius: 100px;
+      display: flex;
+      font-size: 20px;
+    }
+    .footer-icons a:hover{
+      color: #fff;
+  
+    }
+    .footer_menu a{
+      color: #fff;
+      text-decoration: none;
+  
+    }
+    .footer_menu a:hover{
+      color:white;
+    }
+    .footer-copy{
+      background-color:orangered;
+      color: #fff;
+      margin-top: 30px;
+      padding: 10px;
+    }
+    .courses li{
+      align-items: center;
+    }
